@@ -137,14 +137,12 @@ const Home: NextPage = () => {
         {/* <NextLink href="/list-of-sony-trademarks" passHref>
           <Link>List of Sony Trademarks</Link>
         </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/psr-b191921" passHref>
+        <NextLink href="/psr-b191921" passHref>
           <Link>PSR B191921</Link>
-        </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/fff8e7" passHref>
+        </NextLink>
+        <NextLink href="/fff8e7" passHref>
           <Link>FFF8E7</Link>
-        </NextLink> */}
+        </NextLink>
         {/* TODO: */}
         {/* <NextLink href="/finding-and-keeping-the-time" passHref>
           <Link>Finding And Keeping The Time</Link>
@@ -160,10 +158,9 @@ const Home: NextPage = () => {
         {/* <NextLink href="/version-history" passHref>
           <Link>Version History</Link>
         </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/shining-ghost" passHref>
+        <NextLink href="/shining" passHref>
           <Link>Shining (Ghost)</Link>
-        </NextLink> */}
+        </NextLink>
       </Container>
     </>
   );
