@@ -12,9 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Container>
-        <NextLink href="/biblical-litotes" passHref>
+        {/* <NextLink href="/biblical-litotes" passHref>
           <Link>Biblical Litotes</Link>
-        </NextLink>
+        </NextLink> */}
         <NextLink href="/photoshop" passHref>
           <Link>photoshop</Link>
         </NextLink>
@@ -69,48 +69,57 @@ const Home: NextPage = () => {
         <NextLink href="/list-of-lexicographers" passHref>
           <Link>List of Lexicographers</Link>
         </NextLink>
-        <NextLink href="/price-ending" passHref>
+        {/* TODO: */}
+        {/* <NextLink href="/price-ending" passHref>
           <Link>Price Ending</Link>
-        </NextLink>
+        </NextLink> */}
         {/* <NextLink href="/example" passHref>
           <Link>ABRACADABRA</Link>
         </NextLink> */}
         <NextLink href="/mirror-domains" passHref>
           <Link>Mirror Domains</Link>
         </NextLink>
-        <NextLink href="/lilac-chaser" passHref>
-          <Link>Lilac Chaser</Link>
-        </NextLink>
+        <Link href="https://work.damonzucconi.com/lilac-chaser/">
+          Lilac Chaser
+        </Link>
         <NextLink href="/an-open-window" passHref>
           <Link>An Open Window</Link>
         </NextLink>
         <NextLink href="/dissimilar" passHref>
           <Link>Dissimilar</Link>
         </NextLink>
-        <NextLink href="/afternoon" passHref>
+        {/* TODO: */}
+        {/* <NextLink href="/afternoon" passHref>
           <Link>Afternoon</Link>
-        </NextLink>
-        <NextLink href="/a-mirror" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/a-mirror" passHref>
           <Link>A Mirror</Link>
-        </NextLink>
-        <NextLink href="/424-253-4009" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/424-253-4009" passHref>
           <Link>(424) 253-4009</Link>
-        </NextLink>
-        <NextLink href="/guggenheim-displacement" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/guggenheim-displacement" passHref>
           <Link>Guggenheim Displacement</Link>
-        </NextLink>
-        <NextLink href="/pentagon" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/pentagon" passHref>
           <Link>Pentagon</Link>
-        </NextLink>
-        <NextLink href="/the-ocean-floor" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/the-ocean-floor" passHref>
           <Link>The Ocean Floor</Link>
-        </NextLink>
-        <NextLink href="/call-of-continuity" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/call-of-continuity" passHref>
           <Link>Call of Continuity</Link>
-        </NextLink>
-        <NextLink href="/haiku" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/haiku" passHref>
           <Link>Haiku</Link>
-        </NextLink>
+        </NextLink> */}
         <NextLink href="/parallel-textface" passHref>
           <Link>Parallel Textface</Link>
         </NextLink>
@@ -118,35 +127,43 @@ const Home: NextPage = () => {
           TractatusLogico-Philosophicus.com
         </Link>
         <NextLink href="https://www.slowverb.com" passHref>
-          <Link>SlowVerb.com</Link>
+          <Link>Slow Verb</Link>
         </NextLink>
-        <NextLink href="/no-5" passHref>
+        {/* TODO: */}
+        {/* <NextLink href="/no-5" passHref>
           <Link>N°5</Link>
-        </NextLink>
-        <NextLink href="/list-of-sony-trademarks" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/list-of-sony-trademarks" passHref>
           <Link>List of Sony Trademarks</Link>
-        </NextLink>
-        <NextLink href="/psr-b191921" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/psr-b191921" passHref>
           <Link>PSR B191921</Link>
-        </NextLink>
-        <NextLink href="/fff8e7" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/fff8e7" passHref>
           <Link>FFF8E7</Link>
-        </NextLink>
-        <NextLink href="/finding-and-keeping-the-time" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/finding-and-keeping-the-time" passHref>
           <Link>Finding And Keeping The Time</Link>
-        </NextLink>
-        <NextLink href="/thirteen" passHref>
+        </NextLink> */}
+        {/* <NextLink href="/thirteen" passHref>
           <Link>Thirteen</Link>
-        </NextLink>
-        <NextLink href="/a-through-y" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/a-through-y" passHref>
           <Link>A Through Y</Link>
-        </NextLink>
-        <NextLink href="/version-history" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/version-history" passHref>
           <Link>Version History</Link>
-        </NextLink>
-        <NextLink href="/shining-ghost" passHref>
+        </NextLink> */}
+        {/* TODO: */}
+        {/* <NextLink href="/shining-ghost" passHref>
           <Link>Shining (Ghost)</Link>
-        </NextLink>
+        </NextLink> */}
       </Container>
     </>
   );
