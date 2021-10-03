@@ -101,9 +101,9 @@ const Home: NextPage = () => {
           <Link>(424) 253-4009</Link>
         </NextLink> */}
         {/* TODO: */}
-        {/* <NextLink href="/guggenheim-displacement" passHref>
+        <NextLink href="/guggenheim-displacement" passHref>
           <Link>Guggenheim Displacement</Link>
-        </NextLink> */}
+        </NextLink>
         {/* TODO: */}
         {/* <NextLink href="/pentagon" passHref>
           <Link>Pentagon</Link>
