@@ -57,6 +57,8 @@ const Psrb191921: NextPage = () => {
 export default Psrb191921;
 
 const Container = styled(Page)`
+  font-size: 5rem;
+
   h1 {
     margin-bottom: 1rem;
   }

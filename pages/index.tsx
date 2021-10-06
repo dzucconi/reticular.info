@@ -12,9 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Container>
-        {/* <NextLink href="/biblical-litotes" passHref>
+        <NextLink href="/biblical-litotes" passHref>
           <Link>Biblical Litotes</Link>
-        </NextLink> */}
+        </NextLink>
         <NextLink href="/photoshop" passHref>
           <Link>photoshop</Link>
         </NextLink>
@@ -97,25 +97,18 @@ const Home: NextPage = () => {
           <Link>A Mirror</Link>
         </NextLink> */}
         {/* TODO: */}
-        {/* <NextLink href="/424-253-4009" passHref>
-          <Link>(424) 253-4009</Link>
-        </NextLink> */}
-        {/* TODO: */}
         <NextLink href="/guggenheim-displacement" passHref>
           <Link>Guggenheim Displacement</Link>
         </NextLink>
-        {/* TODO: */}
-        {/* <NextLink href="/pentagon" passHref>
+        <NextLink href="/pentagon" passHref>
           <Link>Pentagon</Link>
-        </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/the-ocean-floor" passHref>
+        </NextLink>
+        <NextLink href="/the-ocean-floor" passHref>
           <Link>The Ocean Floor</Link>
-        </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/call-of-continuity" passHref>
+        </NextLink>
+        <NextLink href="/call-of-continuity" passHref>
           <Link>Call of Continuity</Link>
-        </NextLink> */}
+        </NextLink>
         {/* TODO: */}
         {/* <NextLink href="/haiku" passHref>
           <Link>Haiku</Link>
@@ -133,10 +126,9 @@ const Home: NextPage = () => {
         {/* <NextLink href="/no-5" passHref>
           <Link>N°5</Link>
         </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/list-of-sony-trademarks" passHref>
+        <NextLink href="/list-of-sony-trademarks" passHref>
           <Link>List of Sony Trademarks</Link>
-        </NextLink> */}
+        </NextLink>
         <NextLink href="/psr-b191921" passHref>
           <Link>PSR B191921</Link>
         </NextLink>
