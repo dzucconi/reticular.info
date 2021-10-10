@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@wellyshen/use-web-animations": "^0.9.1",
     "frame-interval": "^1.0.47",
     "next": "11.1.2",
     "react": "17.0.2",

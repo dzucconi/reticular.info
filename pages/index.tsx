@@ -21,12 +21,6 @@ const Home: NextPage = () => {
         <Link href="https://work.damonzucconi.com/every-single-thing-becomes-a-word/?q=monday%20tues%C4%83%C4%85wedn%C4%89%C4%8B%C4%86hur%C4%8A%C4%84%20fri%C4%92sa%C4%87r%C4%9Du%C4%82%C4%84">
           MTWTFSS
         </Link>
-        {/* <NextLink href="/text-align" passHref>
-          <Link>Text Align</Link>
-        </NextLink> */}
-        {/* <NextLink href="/text-baseline" passHref>
-          <Link>Text Baseline</Link>
-        </NextLink> */}
         {/* <NextLink href="/compass" passHref>
           <Link>Compass</Link>
         </NextLink> */}
@@ -73,9 +67,6 @@ const Home: NextPage = () => {
         {/* <NextLink href="/price-ending" passHref>
           <Link>Price Ending</Link>
         </NextLink> */}
-        {/* <NextLink href="/example" passHref>
-          <Link>ABRACADABRA</Link>
-        </NextLink> */}
         <NextLink href="/mirror-domains" passHref>
           <Link>Mirror Domains</Link>
         </NextLink>
@@ -92,11 +83,9 @@ const Home: NextPage = () => {
         {/* <NextLink href="/afternoon" passHref>
           <Link>Afternoon</Link>
         </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/a-mirror" passHref>
+        <NextLink href="/a-mirror" passHref>
           <Link>A Mirror</Link>
-        </NextLink> */}
-        {/* TODO: */}
+        </NextLink>
         <NextLink href="/guggenheim-displacement" passHref>
           <Link>Guggenheim Displacement</Link>
         </NextLink>
@@ -142,10 +131,9 @@ const Home: NextPage = () => {
         {/* <NextLink href="/thirteen" passHref>
           <Link>Thirteen</Link>
         </NextLink> */}
-        {/* TODO: */}
-        {/* <NextLink href="/a-through-y" passHref>
+        <NextLink href="/a-through-y" passHref>
           <Link>A Through Y</Link>
-        </NextLink> */}
+        </NextLink>
         {/* TODO: */}
         {/* <NextLink href="/version-history" passHref>
           <Link>Version History</Link>
