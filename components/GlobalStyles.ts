@@ -25,6 +25,12 @@ export const GlobalStyles = createGlobalStyle`
   body {
     color: black;
     background-color: white;
+  }
+
+  body,
+  input,
+  textarea {
+    font-size: 1rem;
     -webkit-text-size-adjust: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.33;

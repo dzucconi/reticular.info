@@ -53,6 +53,5 @@ const Degrees = styled.div`
   font-size: 6vw;
   width: 4ch;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
   display: inline-block;
 `;

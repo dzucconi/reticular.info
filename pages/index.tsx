@@ -12,6 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Container>
+        <NextLink href="/every-single-thing-becomes-a-word" passHref>
+          <Link>Every Single Thing Becomes a Word</Link>
+        </NextLink>
         <NextLink href="/biblical-litotes" passHref>
           <Link>Biblical Litotes</Link>
         </NextLink>
@@ -63,10 +66,9 @@ const Home: NextPage = () => {
         <NextLink href="/list-of-lexicographers" passHref>
           <Link>List of Lexicographers</Link>
         </NextLink>
-        {/* TODO: */}
-        {/* <NextLink href="/price-ending" passHref>
-          <Link>Price Ending</Link>
-        </NextLink> */}
+        <Link href="https://work.damonzucconi.com/price-ending/">
+          Price Ending
+        </Link>
         <NextLink href="/mirror-domains" passHref>
           <Link>Mirror Domains</Link>
         </NextLink>
