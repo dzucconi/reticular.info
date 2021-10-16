@@ -37,10 +37,14 @@ const Photoshop: NextPage = () => {
 export default Photoshop;
 
 const Container = styled.main`
-  padding: 5rem;
-  font-size: 3rem;
+  font-size: 6vw;
+  padding: 1em;
   font-family: sans-serif;
   user-select: none;
+
+  @media (max-width: 800px) {
+    font-size: 12vw;
+  }
 `;
 
 const PERMUTATIONS = [
