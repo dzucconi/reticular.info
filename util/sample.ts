@@ -1,18 +1,15 @@
-export const sample = <T>(xs: T[], n: number = 1) => {
-  let length = xs.length;
+export const _sample = <T>(xs: T[]): T =>
+  xs[Math.floor(Math.random() * xs.length)];
 
-  const result = new Array(n);
-  const taken = new Array(length);
+function sample<T>(xs: T[], n: number): T[];
+function sample<T>(xs: T[]): T;
+function sample<T>(xs: T[], n: 1): T;
+function sample<T>(xs: T[], n = 1) {
+  if (n === 1) return _sample(xs);
 
-  if (n > length) {
-    throw new RangeError("More elements taken than available");
-  }
+  return [...new Array(n)].map(() => {
+    return _sample(xs);
+  });
+}
 
-  while (n--) {
-    const x = Math.floor(Math.random() * length);
-    result[n] = xs[x in taken ? taken[x] : x];
-    taken[x] = --length in taken ? taken[length] : length;
-  }
-
-  return result;
-};
+export { sample };
