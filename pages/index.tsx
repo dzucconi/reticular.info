@@ -12,6 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Container>
+        <NextLink href="/caribbean-blue" passHref>
+          <Link>Caribbean Blue</Link>
+        </NextLink>
         <NextLink href="/every-single-thing-becomes-a-word" passHref>
           <Link>Every Single Thing Becomes a Word</Link>
         </NextLink>
