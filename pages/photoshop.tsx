@@ -37,7 +37,7 @@ const Photoshop: NextPage = () => {
 export default Photoshop;
 
 const Container = styled.main`
-  padding: 3rem;
+  padding: 5rem;
   font-size: 3rem;
   font-family: sans-serif;
   user-select: none;

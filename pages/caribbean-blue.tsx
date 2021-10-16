@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { Page } from "../components/Page";
 import { sample } from "../util/sample";
 
-const CaribbeanBlue: NextPage = () => {
+const Instance: React.FC<{ speed: number }> = ({ speed }) => {
   const [colors, setColors] = useState(sample(COLORS, 7));
 
   useEffect(() => {
@@ -14,13 +14,27 @@ const CaribbeanBlue: NextPage = () => {
         const [_head, ...tail] = prevColors;
         return [...tail, sample(COLORS)];
       });
-    }, 100);
+    }, speed);
 
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [speed]);
 
+  return (
+    <Colors>
+      {colors.map((color, i) => {
+        return (
+          <Color key={color + i} style={{ color }}>
+            {color}
+          </Color>
+        );
+      })}
+    </Colors>
+  );
+};
+
+const CaribbeanBlue: NextPage = () => {
   return (
     <>
       <Head>
@@ -28,15 +42,13 @@ const CaribbeanBlue: NextPage = () => {
       </Head>
 
       <Page>
-        <Colors>
-          {colors.map((color, i) => {
-            return (
-              <Color key={color + i} style={{ color }}>
-                {color}
-              </Color>
-            );
-          })}
-        </Colors>
+        <Instance speed={50} />
+        <Instance speed={50} />
+        <Instance speed={50} />
+        <Instance speed={50} />
+        <Instance speed={50} />
+        <Instance speed={50} />
+        <Instance speed={50} />
       </Page>
     </>
   );
@@ -46,6 +58,13 @@ export default CaribbeanBlue;
 
 const Colors = styled.div`
   position: relative;
+  padding: 1rem;
+
+  &:after {
+    content: "x";
+    font-size: 5vw;
+    color: transparent;
+  }
 `;
 
 const Color = styled.div`
