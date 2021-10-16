@@ -36,17 +36,14 @@ export const CaribbeanBlue: React.FC<{ speed: number }> = ({
 
 const Colors = styled.div`
   position: relative;
-  padding: 1rem;
 
   &:after {
     content: "x";
-    font-size: 5vw;
     color: transparent;
   }
 `;
 
 const Color = styled.div`
-  font-size: 5vw;
   position: absolute;
   mix-blend-mode: multiply;
 `;
