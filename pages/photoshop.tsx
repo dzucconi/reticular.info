@@ -37,6 +37,10 @@ const Photoshop: NextPage = () => {
 export default Photoshop;
 
 const Container = styled.main`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   font-size: 6vw;
   padding: 1em;
   font-family: sans-serif;
