@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import NextLink from "next/link";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import { Page } from "../components/Page";
 
 const Home: NextPage = () => {
@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         <title>reticular.info</title>
       </Head>
 
-      <Container>
+      <Background />
+
+      <Page>
         <NextLink href="/caribbean-blue" passHref>
           <Link>Caribbean Blue</Link>
         </NextLink>
@@ -146,15 +148,17 @@ const Home: NextPage = () => {
         <NextLink href="/shining" passHref>
           <Link>Shining (Ghost)</Link>
         </NextLink>
-      </Container>
+      </Page>
     </>
   );
 };
 
 export default Home;
 
-const Container = styled(Page)`
-  background-color: pink;
+const Background = createGlobalStyle`
+  body {
+    background-color: pink;
+  }
 `;
 
 const Link = styled.a`
