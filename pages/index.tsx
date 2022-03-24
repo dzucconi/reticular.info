@@ -14,6 +14,9 @@ const Home: NextPage = () => {
       <Background />
 
       <Page>
+        <NextLink href="/most-things-are-not-logical" passHref>
+          <Link>Most Things Are Not Logical</Link>
+        </NextLink>
         <NextLink href="/caribbean-blue" passHref>
           <Link>Caribbean Blue</Link>
         </NextLink>
