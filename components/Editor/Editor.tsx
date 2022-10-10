@@ -37,6 +37,9 @@ export const Editor: React.FC<EditorProps> = ({ changeValue = IDENTITY }) => {
         value={changedValue}
         placeholder="Begin typing"
         onFocus={handleFocus}
+        onClick={() => {
+          navigator.clipboard.writeText(changedValue);
+        }}
       />
     </>
   );
@@ -71,12 +74,10 @@ const Input = styled(Textarea)`
 `;
 
 const Output = styled(Textarea)`
-  color: white;
-  background-color: black;
   width: 90%;
   left: 0;
-  background-color: black;
   color: white;
+  background-color: black;
   font-size: 3rem;
   padding: 1em;
 `;
